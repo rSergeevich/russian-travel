@@ -1,0 +1,16 @@
+* {
+  outline: 1px solid red;
+}
+
+.page {
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  box-sizing: border-box;
+  font-family: 'Inter', serif;
+  max-width: 1280px;
+  z-index: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}

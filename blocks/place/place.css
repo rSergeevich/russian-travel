@@ -1,0 +1,13 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 460px;
+  grid-template-rows: minmax(min-content, max-content) 460px;
+  grid-template-areas:
+    'title website'
+    'img texts';
+  gap: 48px 40px;
+  max-width: 984px;
+  max-height: 660px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}

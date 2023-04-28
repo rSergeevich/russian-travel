@@ -1,0 +1,6 @@
+.lead__contanier {
+  display: flex;
+  margin: 0 auto;
+  max-width: 984px;
+  flex-direction: column;
+}
