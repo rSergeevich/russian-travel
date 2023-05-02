@@ -11,3 +11,7 @@
   margin: 0 auto;
   margin-bottom: 80px;
 }
+
+.place:last-child {
+  margin-bottom: 92px;
+}

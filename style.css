@@ -1,55 +1,5 @@
-.cover {
-  display: flex;
-  position: relative;
-  max-width: 1184px;
-  max-height: 740px;
-  margin: auto;
-}
 
-.cover__background {
-  background-image: url(./images-sprint3/__background.png);
-  width: 1184px;
-  height: 740px;
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 2;
-}
 
-.cover__text-contanier {
-  position: relative;
-  left: 312px;
-  top: 245px;
-  display: flex;
-  flex-direction: column;
-  max-width: 560px;
-}
 
-.cover__title {
-  margin: 0 auto 32px;
-  font-weight: 900;
-  font-size: 4.5rem;
-  line-height: 1.06;
-  text-align: center;
-  color: #ffffff;
-}
 
-.cover__subtitle {
-  margin: 0;
-  max-width: 360px;
-  align-self: center;
-  font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 1.22;
-  text-align: center;
-  color: #ffffff;
-}
 
-.cover__overlay {
-  opacity: 0.8;
-}
-
-.cover__overlay:hover {
-  opacity: 0.3;
-  transition: opacity 0.7s ease-in-out;
-}
