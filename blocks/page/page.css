@@ -15,6 +15,10 @@
   font-weight: 900;
 }
 
+* {
+  outline: 1px SOLID RED;
+}
+
 .page {
   margin: auto;
   background-color: #2a2c2f;
@@ -27,4 +31,25 @@
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    min-width: 1024px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 768px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+    margin: auto;
+  }
 }
