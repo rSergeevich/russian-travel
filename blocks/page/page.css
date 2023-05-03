@@ -1,16 +1,16 @@
 @font-face {
-  src: url(../../vendor/fonts.css/Inter-Regular.ttf) format('woff2'),
-    url(../../vendor/fonts.css/Inter-Regular.ttf) format('woff'),
-    url(../../vendor/fonts.css/Inter-Regular.ttf) format('truetype'),
-    url(../../vendor/fonts.css/Inter-Regular.ttf) format('eot');
+  src: url(../../fonts.css/Inter-Regular.ttf) format('woff2'),
+    url(../../fonts.css/Inter-Regular.ttf) format('woff'),
+    url(../../fonts.css/Inter-Regular.ttf) format('truetype'),
+    url(../../fonts.css/Inter-Regular.ttf) format('eot');
   font-family: 'Inter';
 }
 
 @font-face {
-  src: url(../../vendor/fonts.css/Inter-Black.ttf) format('woff2'),
-    url(../../vendor/fonts.css/Inter-Black.ttf) format('woff'),
-    url(../../vendor/fonts.css/Inter-Black.ttf) format('truetype'),
-    url(../../vendor/fonts.css/Inter-Black.ttf) format('eot');
+  src: url(../../fonts.css/Inter-Black.ttf) format('woff2'),
+    url(../../fonts.css/Inter-Black.ttf) format('woff'),
+    url(../../fonts.css/Inter-Black.ttf) format('truetype'),
+    url(../../fonts.css/Inter-Black.ttf) format('eot');
   font-family: 'Inter';
   font-weight: 900;
 }
