@@ -36,20 +36,17 @@
 @media screen and (max-width: 1024px) {
   .page {
     min-width: 1024px;
-    margin: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
     min-width: 768px;
-    margin: auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    max-width: 320px;
-    margin: auto;
+    min-width: 320px;
   }
 }

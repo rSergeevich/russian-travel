@@ -4,3 +4,21 @@
   max-width: 984px;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__contanier {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__contanier {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__contanier {
+    max-width: 320px;
+  }
+}

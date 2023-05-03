@@ -8,3 +8,26 @@
   line-height: 1.5;
   color: #ffffff;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    width: 690px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    width: 720px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    width: 288px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
