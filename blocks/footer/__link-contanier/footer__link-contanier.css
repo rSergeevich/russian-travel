@@ -1,3 +1,17 @@
 .footer__link-contanier {
   margin: 92px 0 24px 48px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__link-contanier {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link-contanier {
+    margin: 64px 0 48px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+}

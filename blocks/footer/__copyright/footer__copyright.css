@@ -6,3 +6,18 @@
   text-align: right;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1;
+    margin: 0 0 16px 24px;
+    text-align: left;
+  }
+}

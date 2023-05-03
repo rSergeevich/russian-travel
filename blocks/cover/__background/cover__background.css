@@ -5,7 +5,30 @@
   background-image: url(../../../images-sprint3/__background.png);
   width: 1184px;
   min-height: 740px;
-  background-size: 100% 100%;
+  display: flex;
   background-size: contain;
   background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    width: 320px;
+    min-height: 200px;
+  }
 }

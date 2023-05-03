@@ -15,10 +15,6 @@
   font-weight: 900;
 }
 
-* {
-  outline: 1px SOLID RED;
-}
-
 .page {
   margin: auto;
   background-color: #2a2c2f;

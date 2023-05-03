@@ -5,5 +5,11 @@
   line-height: 1.06;
   text-align: center;
   color: #ffffff;
-  z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 1.09;
+  }
 }

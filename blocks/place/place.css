@@ -1,5 +1,6 @@
 .place {
   display: grid;
+  position: relative;
   grid-template-columns: 460px 460px;
   grid-template-rows: minmax(min-content, max-content) 460px;
   grid-template-areas:
@@ -13,5 +14,49 @@
 }
 
 .place:last-child {
-  margin-bottom: 92px;
+  margin-bottom: 66px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    width: 928px;
+    min-height: 564px;
+    gap: 48px 32px;
+    grid-template-columns: 440px 456px;
+    grid-template-rows: minmax(min-content, max-content) 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    width: 720px;
+    min-height: 535px;
+    gap: 48px 28px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 46px 46px;
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    column-gap: 32px;
+    width: 320px;
+    display: grid;
+    grid-template-columns: minmax(288px, 320px);
+    grid-template-rows: 35px 46px 320px 545px;
+    grid-template-areas:
+      'title'
+      'website'
+      'img'
+      'texts';
+    margin-bottom: 500px;
+    /* это ужасно, но может быть остроумно
+     по другому никак не получалось решить проблемe с наложением грид контейнеров друг на друга
+      */
+  }
+
+  .place:last-child {
+    margin-bottom: 400px;
+  }
 }

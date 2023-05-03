@@ -7,3 +7,19 @@
   color: #ffffff;
   align-self: start;
 }
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 2rem;
+    line-height: 1.09;
+    width: 288px;
+    margin: 0 auto;
+  }
+}

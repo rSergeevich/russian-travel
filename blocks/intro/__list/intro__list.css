@@ -13,6 +13,7 @@
   .intro__list {
     width: 690px;
     padding-left: 48px;
+    margin-top: 33px;
   }
 }
 
@@ -20,7 +21,7 @@
   .intro__list {
     width: 720px;
     padding: 0;
-    margin: 0 auto;
+    margin: 33px auto 0;
   }
 }
 
@@ -28,6 +29,6 @@
   .intro__list {
     width: 288px;
     padding: 0;
-    margin: 0 auto;
+    margin: 34px auto 0;
   }
 }
