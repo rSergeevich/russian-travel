@@ -2,13 +2,12 @@
   display: grid;
   position: relative;
   grid-template-columns: 460px 460px;
-  grid-template-rows: minmax(min-content, max-content) 460px;
   grid-template-areas:
     'title website'
     'img texts';
   gap: 48px 40px;
   max-width: 984px;
-  max-height: 660px;
+  /* max-height: 660px; */
   margin: 0 auto;
   margin-bottom: 80px;
 }
@@ -23,7 +22,6 @@
     min-height: 564px;
     gap: 48px 32px;
     grid-template-columns: 440px 456px;
-    grid-template-rows: minmax(min-content, max-content) 440px;
   }
 }
 
@@ -33,7 +31,6 @@
     min-height: 535px;
     gap: 48px 28px;
     grid-template-columns: 340px 352px;
-    grid-template-rows: 46px 46px;
     margin-bottom: 72px;
   }
 }
@@ -50,13 +47,5 @@
       'website'
       'img'
       'texts';
-    margin-bottom: 500px;
-    /* это ужасно, но может быть остроумно
-     по другому никак не получалось решить проблемe с наложением грид контейнеров друг на друга
-      */
-  }
-
-  .place:last-child {
-    margin-bottom: 400px;
   }
 }

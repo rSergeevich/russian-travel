@@ -1,25 +1,8 @@
-@font-face {
-  src: url(../../fonts.css/Inter-Regular.ttf) format('woff2'),
-    url(../../fonts.css/Inter-Regular.ttf) format('woff'),
-    url(../../fonts.css/Inter-Regular.ttf) format('truetype'),
-    url(../../fonts.css/Inter-Regular.ttf) format('eot');
-  font-family: 'Inter';
-}
-
-@font-face {
-  src: url(../../fonts.css/Inter-Black.ttf) format('woff2'),
-    url(../../fonts.css/Inter-Black.ttf) format('woff'),
-    url(../../fonts.css/Inter-Black.ttf) format('truetype'),
-    url(../../fonts.css/Inter-Black.ttf) format('eot');
-  font-family: 'Inter';
-  font-weight: 900;
-}
-
 .page {
   margin: auto;
   background-color: #2a2c2f;
   box-sizing: border-box;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', Arial, sans-serif;
   max-width: 1280px;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
