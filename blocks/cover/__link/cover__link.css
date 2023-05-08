@@ -32,7 +32,7 @@
   transition: background-color 0.7s linear;
 }
  
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1185px) {
   .cover__link {
     width: 1024px;
     min-height: 640px;
