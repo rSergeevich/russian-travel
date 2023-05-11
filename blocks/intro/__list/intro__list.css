@@ -7,13 +7,13 @@
   font-size: 0.75rem;
   line-height: 1.5;
   color: #ffffff;
+  margin-top: 33px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro__list {
     width: 690px;
     padding-left: 48px;
-    margin-top: 33px;
   }
 }
 
